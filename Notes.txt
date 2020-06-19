@@ -1,0 +1,4 @@
+6.19 1400:
+    - Eliminated class redundancies within the content and benefit divs
+    - Added Alt tags to images
+    - Began to reorder CSS lines to reflect up-down and left-right
