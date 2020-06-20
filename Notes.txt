@@ -2,3 +2,9 @@
     - Eliminated class redundancies within the content and benefit divs
     - Added Alt tags to images
     - Began to reorder CSS lines to reflect up-down and left-right
+
+6.19 2100:
+    - Adjusted text wrapping
+    - Changed header from a div with .header class to a <header> element to improve SEO, created class 
+        .quicklinks to maintain formatting and style.
+    
