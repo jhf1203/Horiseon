@@ -1,5 +1,6 @@
 6.19 1400:
-    - Eliminated class redundancies within the content and benefit divs
+    - Eliminated class redundancies within the content and benefit divs, added break tags in benefit div for
+        formatting
     - Added Alt tags to images
     - Began to reorder CSS lines to reflect up-down and left-right
 
@@ -7,4 +8,9 @@
     - Adjusted text wrapping
     - Changed header from a div with .header class to a <header> element to improve SEO, created class 
         .quicklinks to maintain formatting and style.
-    
+    - Added working title
+
+6.22. 0930
+    - Transitioned divs to specifics:  <section>, <aside>, <footer>
+    - Changed class names to correspond to parent element titles 
+    - Re-ordered stylesheet so reflect element -> class -> ID
