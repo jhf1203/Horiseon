@@ -8,6 +8,9 @@ body {
     background-color: #d9dcd6;
 }
 
+/* This incorporates both the "HoriSEOn" text as well as the three nav options on the
+right.  Wrapping them all within a "header" element improves SEO for these keywords */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,6 +22,9 @@ h1 {
     display: inline-block;
     font-size: 48px;
 }
+
+/* The below rules enable the bulleted list within <nav> to display inline as
+    well as format consistently within the header */
 
 nav {
     padding-top: 15px;
@@ -38,6 +44,9 @@ a {
     text-decoration: none;
 }
 
+/* The below rules dictate the style of the left-hand side of the main body of text.
+    The have been consolidated to eliminate a class from the original HTML, which will
+    make the layout easier to influence in the future should you want style changes */
 section {
     width: 75%;
     display: inline-block;
@@ -53,10 +62,14 @@ h2 {
     font-size: 36px;
 }
 
+/* This rule will re-format all non-header text within both <section> and <aside> */  
 p {
     font-size: 16px;
 }
 
+/* The below rules dictate the style of the right-hand side of the main body of text.
+    They have been consolidated to eliminate a class from the original HTML, which will
+    make the layout easier to influence in the future should you want style changes */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -79,6 +92,7 @@ aside img {
     max-width: 150px;
 }
 
+/* The below two elements format the bottom text on the page */
 footer {
     padding: 30px;
     clear: both;
@@ -91,10 +105,13 @@ h4 {
     font-size: 20px;
 }
 
+/* This class changes the color of the "SEO" text in "Horiseon" in the header */
 .seo {
     color: #d9dcd6;
 }
 
+/* This class pushes and formats the image separating the header from the remainder
+    of the body of the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -104,6 +121,8 @@ h4 {
     background-position: center;
 }
 
+/* The below two classes dictate the formatting of the three images within the <section> 
+    element */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -114,6 +133,10 @@ h4 {
     margin-left: 25px;
 }
 
+
+/* The below rules dictate the style of text used within the section and aside elements.
+    The have been consolidated from three classes per element to one, to make the layout
+    easier to influence in the future should you want style changes in the future */
 .section-indv {
     margin-bottom: 20px;
     padding: 50px;

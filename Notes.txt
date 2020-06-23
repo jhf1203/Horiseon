@@ -14,3 +14,6 @@
     - Transitioned divs to specifics:  <section>, <aside>, <footer>
     - Changed class names to correspond to parent element titles 
     - Re-ordered stylesheet so reflect element -> class -> ID
+
+6.23 1100
+    - Added notes to both HTML and CSS files
